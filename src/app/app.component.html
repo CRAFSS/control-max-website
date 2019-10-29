@@ -5,71 +5,73 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title class="text-light">Control Max</title>
+    <title class="text-light textao">Control Max</title>
   </head>
   <body>
     <div class="container-fluid">
-        <!-- NavBar -->
-        <header>
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand text-white" href="#" routerLink="/">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/Sem título.png" width="30" height="30" class="d-inline-block align-top" alt="">
-              </a>ControlMax</a>
+      <!-- NavBar -->
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand text-white" href="#" routerLink="/">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/Sem título.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+              </a>>ControlMax</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href="#" routerLink="/">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-white textao" href="#" routerLink="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#" routerLink="/sobre">Sobre</a>
+                  <a class="nav-link text-white textao" href="#" routerLink="/sobre">Sobre</a>
                 </li>
               </ul>
             </div>
           </nav>
         </header>
         <!-- #/NavBar -->
-
+        
         <!-- Conteúdo -->
         
-          <router-outlet></router-outlet>
         
+      </div>
         <!-- #/Conteúdo -->
-    </div>
-  </body>
-
-  <!--Footer-->
-  <div class="mt-5 pt-5 pb-5 footer">
+      <router-outlet></router-outlet>
+    </body>
+    
+    <!--Footer-->
+    <div class="mt-5 pt-5 pb-5 footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-xs-12 about-company">
-          <h2>Heading</h2>
-          <p class="pr-5 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+          <h2 class="textao">Heading</h2>
+          <p class="pr-5 text-white textao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
           <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
         </div>
         <div class="col-lg-3 col-xs-12 links">
-          <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+          <h4 class="mt-lg-0 mt-sm-3 textao">Links</h4>
             <ul class="m-0 p-0">
-              <li>- <a href="#">Home</a></li>
-              <li>- <a href="#">Sobre</a></li>
+              <li>- <a class="textao" routerLink="/">Home</a></li>
+              <li>- <a class="textao" routerLink="/sobre">Sobre</a></li>
               
             </ul>
         </div>
         <div class="col-lg-4 col-xs-12 location">
-          <h4 class="mt-lg-0 mt-sm-4 loca">Location</h4>
-          <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-          <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-          <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+          <h4 class="mt-lg-0 mt-sm-4 loca textao">Location</h4>
+          <p class="textao">22, Lorem ipsum dolor, consectetur adipiscing</p>
+          <p class="mb-0"><i class="fa fa-phone mr-3 textao"></i>(541) 754-3010</p>
+          <p><i class="fa fa-envelope-o mr-3 textao"></i>info@hsdf.com</p>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col copyright">
-          <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+          <p class=""><small class="text-white-50 textao">© 2019. All Rights Reserved.</small></p>
         </div>
       </div>
     </div>
     </div>
+    
