@@ -1,5 +1,9 @@
 .navbar{
-    background: #9b59b6;
+    background: white;
+    z-index: 10;
+    -webkit-box-shadow: 0px 7px 12px 3px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 7px 12px 3px rgba(0,0,0,0.56);
+box-shadow: 0px 7px 12px 3px rgba(0,0,0,0.56);
 }
 
 .footer{
@@ -26,7 +30,7 @@
       }
     } 
     .loca{
-        color: gold;
+        color: white;
     }
     .location{
       i{font-size: 18px;}
@@ -35,5 +39,9 @@
     .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
   }
   .textao{
+    color: #9b59b6;
     font-family: Arial, Helvetica, sans-serif
+  }
+  .footertext{
+    color: white;
   }
