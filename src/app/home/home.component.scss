@@ -4,14 +4,45 @@
 .textao{
     font-family: Arial, Helvetica, sans-serif
 }
-
+.col-md-6,.col-md-4{
+height: 100vh;
+}
 .ibagens{
-    width: 20%;
-    height: 50%;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
     float: right;
+}
+.frase{
+    margin-top: 20%;
+    margin-left: 10%;
 }
 
 .butons{
     color: white;
     background: #9b59b6;
+    margin-left: 10%;
+}
+.jumbo{
+    margin-top:0%;
+    margin-bottom: 0%;
+}
+.jumbo1{
+    margin-top: 0%;
+    background: #9b59b6;
+    color:white;
+    margin-bottom: 0%;
+
+}
+.jumbo2{
+    margin-top: 0%;
+    background: black;
+    color:white;
+    margin-bottom: 0%;
+}
+.ibagens1{
+    float: right;
+    width: 25%;
+    height: 75%;
 }
