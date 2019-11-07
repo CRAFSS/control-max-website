@@ -7,7 +7,13 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 90%;
+  
+  -webkit-box-shadow: 0px 7px 12px 3px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 7px 12px 3px rgba(0,0,0,0.56);
+box-shadow: 0px 7px 12px 3px rgba(0,0,0,0.56);
 }
 .textao{
+    font-size: 100%;
     font-family: Arial, Helvetica, sans-serif
 }

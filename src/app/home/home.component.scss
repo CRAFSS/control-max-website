@@ -9,13 +9,17 @@ height: 100vh;
 }
 .ibagens{
     margin-top: 20%;
+    padding-bottom: 30%;
     margin-left: 10%;
-    width: 80%;
+    width: 90%;
     height: 80%;
     float: right;
 }
 .frase{
     margin-top: 20%;
+    margin-left: 10%;
+}
+.frase1{
     margin-left: 10%;
 }
 
@@ -29,20 +33,30 @@ height: 100vh;
     margin-bottom: 0%;
 }
 .jumbo1{
-    margin-top: 0%;
     background: #9b59b6;
     color:white;
-    margin-bottom: 0%;
 
 }
 .jumbo2{
     margin-top: 0%;
     background: black;
     color:white;
-    margin-bottom: 0%;
 }
 .ibagens1{
+    margin-top: 13%;
+    margin-right: 5%;
     float: right;
-    width: 25%;
     height: 75%;
+}
+.imagem0{
+    margin-top: 50%;
+    padding-bottom: 15%;
+    float: right;
+    height: 40%;
+    
+}
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
 }
